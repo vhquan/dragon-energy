@@ -1,6 +1,6 @@
 " ------------------------------------------------------------------------------
-"                                  by wdhg
-"                       github.com/wdhg/dragon-energy
+"                                  by vhquan
+"                       github.com/vhquan/dragon-energy
 " ------------------------------------------------------------------------------
 
 set background=dark
@@ -27,7 +27,7 @@ hi Number          guifg=#11ccff
 hi Boolean         guifg=#c088ff
 hi Float           guifg=#11ccff
 
-hi Identifier      guifg=#29d8f7
+hi Identifier      guifg=#29d8f7 gui=bold
 hi Function        guifg=#fe88fe
 
 hi Statement       guifg=#ff4477
@@ -35,7 +35,7 @@ hi Statement       guifg=#ff4477
 "Repeat
 "Label
 "Operator
-"Keyword
+hi Keyword         guifg=#ff4477 gui=bold
 "Exception
 
 hi PreProc         guifg=#ee9933
